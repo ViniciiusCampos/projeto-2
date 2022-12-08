@@ -1,16 +1,29 @@
 * {
     padding: 0px;
     margin: 0px;
+
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Outfit:wght@100&family=Zen+Dots&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@100&family=Outfit:wght@100&family=Zen+Dots&display=swap');
+
 body {
-    width: 375px;
+     width: 500px;
+     height: 500px;
+     background-color:  hsl(30, 38%, 92%);
 
 }
 
 .tudo {
+    width: 375px;
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
+    margin-left: 68px;
+    background-color: white;
+    border-radius: 0 0 8px 8px;
+    
 }
 
 .img {
@@ -22,34 +35,59 @@ body {
     display: flex;
     flex-direction: column;
     padding-left: 11px;
+    height: 300px;
+    
 }
 
 .titulo {
       margin-top: 15px;
-      color: hsl(212, 21%, 14%);
+      color: hsl(228, 12%, 48%);
  
+}
+
+.nome {
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+.descricao {
+     margin-top: 7px;
+     color: hsl(228, 12%, 48%);
 }
 
 .preco-1 {
     position: absolute;
-    bottom: 37%;
-    margin-left: 106px;
+    bottom: 31%;
+    margin-left: 110px;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
 }
 
 .preco-2 {
     font-size: 28px; 
     color: hsl(158, 36%, 37%);
     font-weight: bold;
+    margin-top: 15px;
+    font-family: 'Fraunces',serif;
 }
 
 
 .botao {
     background-color: hsl(158, 36%, 37%);
     color: white;
+    font-weight: bold;
     width: 300px;
     height: 40px;
     border: none;
     margin-top: 15px;
+    margin-left: 25px;
     border-radius: 12px;
+}
 
+.botao:hover {
+    background-color: white;
+    color:hsl(158, 36%, 37%);
+    transition: 500ms linear;
+    cursor: pointer;
+    border: solid 1px hsl(158, 36%, 37%);
 }
