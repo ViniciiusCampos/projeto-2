@@ -1,0 +1,70 @@
+@media (min-width: 1000px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body {
+        width: 1440px;
+        height: 100vh;
+        background-color: hsl(30, 38%, 92%);
+    }
+
+    .tudo {
+        display: flex;
+        flex-direction: row;
+        margin-top: 150px;
+        height: 360px;
+        
+    }
+
+    .meio {
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 0 8px 8px 0;
+        background-color: white;
+        height: 360px;
+        padding-right: 28px;
+    }
+    
+    .img {
+
+        border-radius: 8px 0 0 8px;
+    }
+   
+
+    .titulo {
+        margin-left: 14px;
+        margin-top: 19px;
+    }
+
+    .nome {
+        margin-left: 14px;
+        margin-top: 13px;
+    }
+
+    .descricao {
+        margin-left: 14px;
+        margin-top: 18px;
+    }
+
+    .preco-2 {
+        margin-left: 14px;
+        margin-top: 10px;
+    }
+   
+    .preco-1 {
+        position: relative;
+        bottom: -10%;
+        left: 12px;
+        
+    }
+
+    .botao {
+        margin-top: 20px;
+        width: 260px;
+    }
+
+
+
+}
